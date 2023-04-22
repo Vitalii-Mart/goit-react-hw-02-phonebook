@@ -31,6 +31,14 @@ export const Button = styled.button`
   border-radius: 5px;
   font-weight: 700;
   color: rgb(47, 47, 226);
+  background-color: white;
+  transition: 0.4s;
+  &:hover,
+  &:focus {
+    transition: 0.4s;
+    color: white;
+    background-color: rgb(47, 47, 226);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
 `;
 
 export const Label = styled.label`
